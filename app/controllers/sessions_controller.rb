@@ -13,7 +13,7 @@ class SessionsController < ApplicationController
   end
 
   def auth_fail
-    render_text: "You've tried to authenticate via #{params[:strategy]} but the following error occurred: #{params[:message]}", status: 500
+    render_text "You've tried to authenticate via #{params[:strategy]} but the following error occurred: #{params[:message]}", status: 500
   end
 end
 
