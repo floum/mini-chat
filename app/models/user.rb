@@ -2,7 +2,7 @@ class User < ActiveRecord::Base
   has_many :comments, dependent: :delete_all
 
   class << self
-    def from_omni_auth(auth)
+    def from_omniauth(auth)
       provider = auth.provider
       uid = auth.uid
       info = auth.info.symbolize_keys!
