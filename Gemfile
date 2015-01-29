@@ -9,6 +9,7 @@ gem 'pg'
 
 gem 'jbuilder', '~> 2.0'
 gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
 
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
