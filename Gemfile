@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.0'
 gem 'turbolinks'
+gem 'faye-rails'
+gem 'thin'
 
 gem 'pg'
 

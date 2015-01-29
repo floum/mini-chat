@@ -18,3 +18,5 @@
 //= require bootstrap
 //= require jquery.turbolinks
 //= require turbolinks
+//= require faye
+//= require comments
